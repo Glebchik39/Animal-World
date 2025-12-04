@@ -14,3 +14,11 @@ void Carnivores::Eat(*Herbivore)
 
 	}
 }
+
+void Carnivores::Eat(Herbivore& obj)
+{
+	if (power > obj.GetWeight())
+	{
+
+	}
+}
