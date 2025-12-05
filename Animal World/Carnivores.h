@@ -8,7 +8,8 @@ class Carnivores : public Animal
 {
 	int power;
 public:
-	Carnivores(int p, string n) :Animal(n) {};
+	Carnivores() = default;
+	Carnivores(string n,int p);
 	void Eat(Herbivore & obj);
 };
 

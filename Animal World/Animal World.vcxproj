@@ -128,14 +128,25 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Animal.cpp" />
+    <ClCompile Include="Bison.cpp" />
     <ClCompile Include="Carnivores.cpp" />
     <ClCompile Include="Herbivore.cpp" />
+    <ClCompile Include="Lion.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Wildebeest.cpp" />
+    <ClCompile Include="Wolf.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Animal.h" />
+    <ClInclude Include="Bison.h" />
     <ClInclude Include="Carnivores.h" />
     <ClInclude Include="Herbivore.h" />
+    <ClInclude Include="Lion.h" />
+    <ClInclude Include="Wildebeest.h" />
+    <ClInclude Include="Wolf.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
