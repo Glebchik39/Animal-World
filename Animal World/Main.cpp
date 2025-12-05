@@ -10,6 +10,7 @@ using namespace std;
 
 int main()
 {
+	
 	Animal* animal = nullptr;
 	int choice = 0;
 }

@@ -39,6 +39,9 @@
     <ClCompile Include="Bison.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Continent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Animal.h">
@@ -60,6 +63,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Bison.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Continent.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
